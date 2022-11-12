@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+* {
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: rgb(63, 94, 251);
+    background: linear-gradient(90deg, rgba(63, 94, 251, 1) 0%, rgba(200, 209, 255, 1) 100%);
+}
+
+h1 {
+    color: #f5f5f7;
+    transition: 0.5s;
+
+}
+
+h1:hover {
+    color: #e6e6f8;
+    font-size: 35px;
+
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=date] {
+    padding: 10px 85px;
+    border-radius: 4px;
+    border: 1px none #3f51b5;
+    box-sizing: border-box;
+    transition: 0.2s;
+    outline: none;
+    display: block;
+    margin: 8px auto;
+
+}
+
+input[type=text]:focus,
+input[type=password]:focus,
+input[type=email]:focus,
+input[type=number]:focus,
+input[type=date]:focus {
+    background: rgb(173, 183, 235);
+    background: linear-gradient(180deg, rgba(173, 183, 235, 1) 0%, rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, 1) 90%, rgba(173, 183, 235, 1) 100%);
+    border: 2px solid #a486f6;
+    color: rgb(47, 43, 43);
+    padding: 14px 90px;
+    border-radius: 6px;
+    outline: none;
+    display: block;
+    margin: 8px auto;
+    backdrop-filter: blur(200px);
+    font-weight: 800;
+
+    
+}
+
+input[type=submit] {
+    background-color: #718ddf;
+    color: white;
+    padding: 12px 40px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    margin: 8px auto;
+    transition: 0.5s;
+}
+
+input[type=submit]:hover {
+    background-color: #3145b7;
+    padding: 13px 50px;
+
+}
+
+label {
+
+    display: block;
+    color: #dadeee;
+    justify-content: center;
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.border text {
+    display: block;
+    font-size: 100px;
+}
+
+a:visited,
+a:link {
+    color: #dadeee;
+    text-decoration: none;
+    font-size: small;
+    transition: 0.5s;
+
+
+}
+
+a:hover,
+a:active {
+    color: white;
+    text-decoration: none;
+    font-size: medium;
+
+}
+
+.border {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+    backdrop-filter: blur(200px);
+    box-shadow: 0px 0px 2px 2px rgb(133 124 225);
+}
